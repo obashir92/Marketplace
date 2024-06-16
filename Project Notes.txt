@@ -1,4 +1,6 @@
 Features
 
-- add/remove products
-- 
+- add/remove/edit products
+- product attributes(database model) eg. Price, Description, status..
+- user creation & authentication
+- Dashboard
