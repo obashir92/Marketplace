@@ -1,6 +1,17 @@
+Full stack Django-project showcase
+(Fully functional Marketplace)
+
+Front-end: Html5 / Tailwind(Css)
+Back-end: python django framework
+Version control: Github
+
 Features
 
-- add/remove/edit products
-- product attributes(database model) eg. Price, Description, status..
-- user creation & authentication
+- Add/remove/edit products (database management)
+- Product details eg. Price, Description, status..
+- User creation & Authentication
 - Dashboard
+- Search items
+- Buyer/Seller communication channel
+
+Github source code: @obashir92
