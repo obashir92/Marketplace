@@ -8,9 +8,9 @@
     <title>{% block title %}{% endblock %} | Puddle</title>
   </head>
   <body class="p-0 m-0">
-    <nav class="px-4 py-6 flex justify-between items-center border-b border-gray-200 bg-cyan-500 shadow-lg">
+    <nav class="px-4 py-4 flex justify-between items-center border-b border-gray-200 bg-emerald-500 shadow-lg sticky top-0 bg-opacity-80">
       <a href="/" class="flex items-center space-x-3">
-        <!--<img src="https://icons.iconarchive.com/icons/bokehlicia/captiva/256/rocket-icon.png" alt="Logo" class="h-16 w-16 object-contain">-->
+        <img src="https://icons.iconarchive.com/icons/iconka/business-finance/512/shopping-bag-icon.png" alt="Logo" class="h-16 w-16 object-contain">
         <span class="text-2xl font-semibold text-white drop-shadow-lg">Marketplace</span></a>
       
       <div class="space-x-6">
@@ -19,7 +19,7 @@
 
         {% if request.user.is_authenticated %}
           <a href="{% url 'conversation:inbox' %}" class="px-6 py-2.5 text-lg font-semibold bg-orange-500 text-white rounded-xl hover:bg-orange-600 shadow-md">Inbox</a>
-          <a href="{% url 'dashboard:index' %}" class="px-6 py-2.5 text-lg font-semibold bg-green-500 text-white rounded-xl hover:bg-green-600 shadow-md">Dashboard</a>
+          <a href="{% url 'dashboard:index' %}" class="px-6 py-2.5 text-lg font-semibold bg-cyan-500 text-white rounded-xl hover:bg-cyan-600 shadow-md">Dashboard</a>
         {% else %}
           <a href="{% url 'core:signup' %}" class="px-6 py-2.5 text-lg font-semibold bg-orange-500 text-white rounded-xl hover:bg-orange-600 shadow-md">Sign up</a>
           <a href="{% url 'core:login' %}" class="px-6 py-2.5 text-lg font-semibold bg-green-500 text-white rounded-xl hover:bg-green-600 shadow-md">Log in</a>
@@ -32,10 +32,10 @@
         {% endblock %}
     </div>
 
-    <footer class="px-6 py-6 flex justify-between bg-cyan-500">
+    <footer class="px-6 py-6 flex justify-between bg-emerald-500">
       <div class="w-2/3 pr-10">
         <h3 class="mb-5 font-semibold text-xl">About</h3>
-        <p class="text-lg text-sm">This is the about section of the marketplace :) ... </p>
+        <p class="text-lg text-sm">This is the about section of the marketplace ... </p>
       </div>
 
       <div class="w-1/3">
