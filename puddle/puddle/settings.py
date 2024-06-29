@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-93go-(bo#y0w!#c&fangc$j-pb2&1jhgm@kytq-4p0(rz&fyi9
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['marketplace-python-django.onrender.com']
 
 LOGIN_URL = '/login/'
 
